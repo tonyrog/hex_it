@@ -1,0 +1,13 @@
+{application, hex_it,
+ [
+  {description, "HEX template application"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+		  hex
+                 ]},
+  {mod, { hex_it, []}},
+  {env, []}
+ ]}.
